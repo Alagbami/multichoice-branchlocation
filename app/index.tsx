@@ -1,4 +1,3 @@
-
 import { Redirect } from 'expo-router';
 
 const Home = () => {
