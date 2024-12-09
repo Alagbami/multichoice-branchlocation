@@ -36,13 +36,30 @@ const SignUp = () => {
           </Text>
         </View>
 
-        <View>
+        <View className="p-5">
           <InputField
             label="Name"
             placeholder="Enter name"
             icon={icons.person}
             value={form.name}
             onChangeText={(value) => setForm({ ...form, name: value })}
+          />
+          <InputField
+            label="Email"
+            placeholder="Enter email"
+            icon={icons.email}
+            textContentType="emailAddress"
+            value={form.email}
+            onChangeText={(value) => setForm({ ...form, email: value })}
+          />
+          <InputField
+            label="Password"
+            placeholder="Enter password"
+            icon={icons.lock}
+            secureTextEntry={true}
+            textContentType="password"
+            value={form.password}
+            onChangeText={(value) => setForm({ ...form, password: value })}
           />
         </View>
 

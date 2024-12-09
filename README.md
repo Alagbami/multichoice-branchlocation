@@ -2,10 +2,12 @@
 
 
 ## Get started
-stop at 1:20:00 min v
+stop at 1:30 
 
 dec 8 2024
 
-still having an tailwindcss setup config error 
+Oauth with google error | Clerk about to implement
+
+still having the tailwindcss setup config error 
 not working on metro scan mobile. which make me use metro web bundled
-suggest metro.config.js or babel.config.js should be the issue
+suggest metro.config.js or babel.config.js could be the issue
